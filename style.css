@@ -7,14 +7,18 @@ body {
 }
 main {
     width: 80%;
+    max-width: 1000px;
     margin: auto;
 }
 
 h1 {
     color: #D4AF37;
-    font-size: 50px;
+    font-size: 40px;
+    text-align: center;
 }
-
+h1:hover{
+    color: hotpink ;
+}
 h2 {
     color: #D4AF37;
 }
@@ -46,21 +50,41 @@ nav a {
     font-size: 18px;
     padding: 12px 24px;
     border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 .about {
     color: #D4AF37;
     background-color: rgba(212,175,55,0.15);
+  
 }
-
+.about:hover{
+    background-color: #D4AF37;
+    color: white;
+    transform:scale(1.05);
+}
 .gallery {
     color: #2563EB;
     background-color: rgba(37,99,235,0.15);
+   
+}
+.gallery:hover{
+    background-color: #2563EB;
+    color: white;
+    transform:scale(1.05);
 }
 
 .contact {
     color: #EC4899;
     background-color: rgba(236,72,153,0.15);
+    
+}
+.contact:hover{
+    background-color: #EC4899;
+    color: white;
+    transform:scale(1.05);
 }
 footer {
     margin: 20px;
+    text-align: center;
 }
