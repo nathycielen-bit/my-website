@@ -80,7 +80,7 @@ nav a {
 nav a:hover{
     color: #fbbf24;
     background: rgba(251,191,36,0.12);
-    transform: translateY(3px, -2px);
+    transform: translate(3px, -2px);
 }
 .login-btn {
     background-color: #D4AF37;
