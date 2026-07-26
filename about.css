@@ -126,6 +126,58 @@ nav a:hover{
     width:240px;
     height:320px;
 }
+.creative-section{
+    display:flex;
+    align-items:center;
+    gap:50px;
+    margin:120px 0;
+}
+.creative-section img{
+    width:240px;
+    height:320px;
+}
+.creative-text{
+    flex:1;
+}
+.foodie-section{
+    display:flex;
+    align-items:center;
+    gap:50px;
+    margin:120px 0;
+}
+.foodie-text{
+    flex:1;
+}
+.foodie-section img{
+    width:240px;
+    height:320px;
+}
+.friend-section{
+    display:flex;
+    align-items:center;
+    gap:50px;
+    margin:120px 0;
+}
+.friend-section img{
+    width:240px;
+    height:320px;
+}
+.friend-text{
+    flex:1;
+}
+.believer-section{
+    display:flex;
+    align-items:center;
+    gap:50px;
+    margin:120px 0;
+}
+.believer-text{
+    flex:1;
+}
+.believer-section img{
+    width:240px;
+    height:320px;
+}
 .human-section{
     display:grid;
     grid-template-columns: 220px 1fr 220px;
@@ -282,4 +334,3 @@ footer {
 
     }
 
-}
