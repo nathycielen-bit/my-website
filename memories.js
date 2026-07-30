@@ -5,7 +5,7 @@ const memories = {
 
     family: [
         {
-            image: "images/family/IMG_0052.jpeg",
+            image: "IMG_0052.jpeg",
             title: "Family Picnic"
         }
     ],
